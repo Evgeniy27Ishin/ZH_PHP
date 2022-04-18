@@ -7,6 +7,7 @@
 		public function __construct($n, $s, $p, $g) {
 			parent::__construct($n, $s, $p);
 			$this->group = $g;
+			$this->group->addStudent($this);
 		}
 
 		public function display() {

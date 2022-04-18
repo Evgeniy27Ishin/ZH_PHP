@@ -12,6 +12,6 @@ abstract class Human {
 	}
 
 	public function display() {
-		echo sprintf('%s %s $s', $this->surname,$this->name,$this->patronymic);
+		echo sprintf('%s %s %s', $this->surname,$this->name,$this->patronymic);
 	}
 }
